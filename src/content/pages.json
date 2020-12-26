@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Home",
+    "slug": "index"
+  },
+  {
+    "title": "Portfolio",
+    "slug": "portfolio"
+  },
+  {
+    "title": "Services",
+    "slug": "services"
+  },
+  {
+    "title": "About",
+    "slug": "about"
+  },
+  {
+    "title": "Testimonials",
+    "slug": "testimonials"
+  },
+  {
+    "title": "Contact",
+    "slug": "contact"
+  }
+]

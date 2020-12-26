@@ -1,0 +1,34 @@
+{% extends 'page.html' %}
+{% block body %}
+<div class="portfolio row">
+  {% for img in page.img %}
+  <div class="col-12 col-md-6 col-lg-4 col-card">
+    <a id="{{img.slug}}" class="card" data-toggle="modal" data-target="#modal">
+      <img class="card-img" src="{{img.src}}"/>
+    </a>
+  </div>
+  {% endfor %}
+</div>
+<div id="modal" class="modal" role="dialog">
+  <div class="modal-dialog modal-xl" role="document">
+    <div class="modal-content">
+      <div id="carousel" class="carousel slide" data-interval=false>
+        <div class="carousel-inner">
+          {% for img in page.img %}
+          <div id="modal-{{img.slug}}" class="carousel-item">
+            <img src="{{img.src}}"/>
+          </div>
+          {% endfor %}
+        </div>
+        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+        <div class="x" data-dismiss="modal">&times</div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

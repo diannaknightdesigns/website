@@ -1,0 +1,27 @@
+{% extends 'page.html' %}
+{% block body %}
+<div class="services row">
+  <div class="col-12">
+    <p>
+      A well-designed space should offer comfort, practicality and visual appeal.  Give Dianna a call to talk about your design needs. Interior design services are available in the GTA including Brampton, Oakville, Mississauga, and Toronto.
+      <br>
+      The scope of services is tailored to the needs of the client and the home itself. These services are available in three different packages, and can be customized to fit your needs.
+    </p>
+  </div>
+  {% for service in services %}
+  {% set ppi = loop.cycle('1','2') %}
+  {% set ppt = loop.cycle('2','1') %}
+  <div class="service col-12">
+    <h3>{{service.title}}</h3>
+    <div class="row">
+      <div class="col-12 col-md-4 col-lg-3 order-md-{{ppi}}">
+        <img src="img/services/{{service.img}}"/>
+      </div>
+      <div class="col-12 col-md-8 col-lg-9 order-md-{{ppt}}">
+        <p>{{service.descr}}</p>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}

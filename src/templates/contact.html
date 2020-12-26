@@ -1,0 +1,19 @@
+{% extends 'page.html' %}
+{% block body %}
+<div class="contacts row">
+  <div class="col-12 center">
+    <p>
+      Thank you for your interest in Dianna Knight Designs.
+      I look forward to speaking with you about your project!
+    </p>
+  </div>
+  {% for contact in contacts %}
+  <div class="col-12 col-md-4 center contact">
+    <a href="{{contact.href}}" target="_blank">
+      <img src="/img/{{contact.icon}}" class="icon"/>
+      <p>{{contact.title}}</p>
+    </a>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}

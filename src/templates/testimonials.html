@@ -1,18 +1,20 @@
 {% extends 'page.html' %}
 {% block body %}
-<div class="testimonials row" data-masonry='{"percentPosition": true}'>
-  {% for testimonial in testimonials %}
-  <div class="testimonial col-12 col-md-6 col-xl-4">
-    <div class="text">
-      {{testimonial.text}}
+<div class="container">
+  <div class="testimonials row" data-masonry='{"percentPosition": true}'>
+    {% for testimonial in testimonials %}
+    <div class="testimonial col-12 col-md-6 col-xl-4">
+      <div class="text">
+        {{testimonial.text}}
+      </div>
+      <div class="name">
+        {{testimonial.name}}
+      </div>
+      <div class="date">
+        {{testimonial.date}}
+      </div>
     </div>
-    <div class="name">
-      {{testimonial.name}}
-    </div>
-    <div class="date">
-      {{testimonial.date}}
-    </div>
+    {% endfor %}
   </div>
-  {% endfor %}
 </div>
 {% endblock %}

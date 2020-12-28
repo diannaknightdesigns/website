@@ -1,18 +1,20 @@
 {% extends 'page.html' %}
 {% block body %}
-<div class="portfolio row" data-masonry='{"percentPosition": true}'>
-  {% for project in portfolio.projects %}
-  {% set img = project.img[0] %}
-  <div class="col-12 col-md-6 col-card">
-    <div class="card">
-      <a href="/portfolio/{{project.slug}}">
-        <img class="card-img" src="{{img.src}}"/>
-        <div class="card-img-overlay">
-          <h3 class="card-title">{{project.title}}</h3>
-        </div>
-      </a>
+<div class="container">
+  <div class="portfolio row" data-masonry='{"percentPosition": true}'>
+    {% for project in portfolio.projects %}
+    {% set img = project.img[0] %}
+    <div class="col-12 col-md-6 col-card">
+      <div class="card">
+        <a href="/portfolio/{{project.slug}}">
+          <img class="card-img" src="{{img.src}}"/>
+          <div class="card-img-overlay">
+            <h3 class="card-title">{{project.title}}</h3>
+          </div>
+        </a>
+      </div>
     </div>
+    {% endfor %}
   </div>
-  {% endfor %}
 </div>
 {% endblock %}

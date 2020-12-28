@@ -12,6 +12,7 @@ for project in C['portfolio']['projects']:
 
 sorter = lambda e: e['no']
 X = dict(
+  default      = C['default'],
   navitems     = C['pages'],
   contacts     = C['contacts'],
   services     = C['services'],

@@ -2,7 +2,7 @@
 {% block body %}
 <div class="container">
   <div class="portfolio row">
-    {% for img in page.img %}
+    {% for img in this.img %}
     <div class="col-12 col-md-6 col-lg-4 col-card">
       <a id="{{img.slug}}" class="card" data-toggle="modal" data-target="#modal">
         <img class="card-img" src="{{img.src}}"/>
@@ -15,7 +15,7 @@
       <div class="modal-content">
         <div id="carousel" class="carousel slide" data-interval=false>
           <div class="carousel-inner">
-            {% for img in page.img %}
+            {% for img in this.img %}
             <div id="modal-{{img.slug}}" class="carousel-item">
               <img src="{{img.src}}"/>
             </div>

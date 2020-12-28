@@ -52,4 +52,4 @@ def file_save(path,string):
 def page_save(E,T,page,**kwargs):
   path = os.path.join('web',page['href']+ext)
   log('save: '+path, level=2)
-  file_save(path,T.load(E,page['template']+ext).render(page=page,**kwargs))
+  file_save(path,T.load(E,page['template']+ext).render(this=page,**kwargs))

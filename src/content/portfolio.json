@@ -22,6 +22,14 @@
         {"slug": "bathroom-sink",     "ori": "v", "tags": ["bathroom"]},
         {"slug": "bathroom-shower",   "ori": "v", "tags": ["bathroom"]}
       ]
+    },
+    {
+      "title": "Wisteria",
+      "slug": "wisteria",
+      "img": [
+        {"slug": "bedroom-straight",  "ori": "h", "tags": ["bedroom"]},
+        {"slug": "bedroom-angle",     "ori": "h", "tags": ["bedroom"]}
+      ]
     }
   ],
   "tags": [

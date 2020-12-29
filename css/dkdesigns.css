@@ -28,7 +28,7 @@ h1,h2,h3,h4 {
   color: #6c605c;
 }
 p {
-  margin-bottom: .5rem;
+  margin-bottom: 1rem;
 }
 .no-wrap {
   display: inline-block;

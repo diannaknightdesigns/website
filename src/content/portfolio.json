@@ -40,12 +40,27 @@
         {"slug": "bedroom-straight",  "ori": "h", "tags": ["bedroom"]},
         {"slug": "bedroom-angle",     "ori": "h", "tags": ["bedroom"]}
       ]
+    },
+    {
+      "title": "3D Design",
+      "slug": "3d",
+      "img": [
+        {"slug": "basement-games",       "ori": "w", "tags": ["living"]},
+        {"slug": "basement-sit",         "ori": "w", "tags": ["living"]},
+        {"slug": "basement-back",        "ori": "w", "tags": ["living"]},
+        {"slug": "basement-dollhouse",   "ori": "v", "tags": []},
+        {"slug": "basement-office",      "ori": "h", "tags": ["office"]},
+        {"slug": "basement-office-back", "ori": "h", "tags": ["office"]},
+        {"slug": "condo-window",         "ori": "w", "tags": ["living"]},
+        {"slug": "condo-sit",            "ori": "w", "tags": ["living"]}
+      ]
     }
   ],
   "tags": [
     {"title": "Living Rooms", "slug": "living"},
     {"title": "Kitchens",     "slug": "kitchen"},
     {"title": "Bathrooms",    "slug": "bathroom"},
-    {"title": "Bedrooms",     "slug": "bedroom"}
+    {"title": "Bedrooms",     "slug": "bedroom"},
+    {"title": "Offices",      "slug": "office"}
   ]
 }

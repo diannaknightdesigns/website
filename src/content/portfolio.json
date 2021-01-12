@@ -10,17 +10,8 @@
         {"slug": "living-office",     "ori": "h", "tags": ["living"]},
         {"slug": "living-shoes",      "ori": "v", "tags": ["living"]},
         {"slug": "kitchen-backsplash","ori": "h", "tags": ["kitchen"]},
-        {"slug": "kitchen-pov",       "ori": "h", "tags": ["kitchen"]},
-        {"slug": "kitchen-table",     "ori": "h", "tags": ["kitchen"]}
-      ]
-    },
-    {
-      "title": "Parkview",
-      "slug": "parkview",
-      "img": [
-        {"slug": "bathroom-main",     "ori": "v", "tags": ["bathroom"]},
-        {"slug": "bathroom-sink",     "ori": "v", "tags": ["bathroom"]},
-        {"slug": "bathroom-shower",   "ori": "v", "tags": ["bathroom"]}
+        {"slug": "kitchen-pov",       "ori": "h", "tags": ["kitchen","dining"]},
+        {"slug": "kitchen-table",     "ori": "h", "tags": ["kitchen","dining"]}
       ]
     },
     {
@@ -31,6 +22,28 @@
         {"slug": "living-tv",     "ori": "h", "tags": ["living"]},
         {"slug": "living-sit",    "ori": "h", "tags": ["living"]},
         {"slug": "living-back",   "ori": "h", "tags": ["living"]}
+      ]
+    },
+    {
+      "title": "London",
+      "slug": "london",
+      "img": [
+        {"slug": "living-main",   "ori": "h", "tags": ["living"]},
+        {"slug": "living-side",   "ori": "v", "tags": ["living"]},
+        {"slug": "living-art",    "ori": "v", "tags": ["living"]},
+        {"slug": "living-mirror", "ori": "v", "tags": ["living"]},
+        {"slug": "living-chair",  "ori": "v", "tags": ["living"]},
+        {"slug": "living-table",  "ori": "v", "tags": ["living"]},
+        {"slug": "dining",        "ori": "h", "tags": ["dining"]}
+      ]
+    },
+    {
+      "title": "Parkview",
+      "slug": "parkview",
+      "img": [
+        {"slug": "bathroom-main",     "ori": "v", "tags": ["bathroom"]},
+        {"slug": "bathroom-sink",     "ori": "v", "tags": ["bathroom"]},
+        {"slug": "bathroom-shower",   "ori": "v", "tags": ["bathroom"]}
       ]
     },
     {
@@ -59,6 +72,7 @@
   "tags": [
     {"title": "Living Rooms", "slug": "living"},
     {"title": "Kitchens",     "slug": "kitchen"},
+    {"title": "Dining Rooms", "slug": "dining"},
     {"title": "Bathrooms",    "slug": "bathroom"},
     {"title": "Bedrooms",     "slug": "bedroom"},
     {"title": "Offices",      "slug": "office"}

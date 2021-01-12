@@ -24,6 +24,16 @@
       ]
     },
     {
+      "title": "Lakeshore Condo",
+      "slug": "lakeshore",
+      "img": [
+        {"slug": "living-window", "ori": "h", "tags": ["living"]},
+        {"slug": "living-tv",     "ori": "h", "tags": ["living"]},
+        {"slug": "living-sit",    "ori": "h", "tags": ["living"]},
+        {"slug": "living-back",   "ori": "h", "tags": ["living"]}
+      ]
+    },
+    {
       "title": "Wisteria",
       "slug": "wisteria",
       "img": [

@@ -134,6 +134,7 @@ a:hover img {
 .card-title {
   margin: auto;
   color: #ffffff;
+  text-shadow: 0px 0px 5px black;
 }
 .modal-dialog {
   margin: 05vh auto;

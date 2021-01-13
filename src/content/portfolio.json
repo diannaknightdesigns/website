@@ -3,6 +3,7 @@
     {
       "title": "Port Credit",
       "slug": "port-credit",
+      "pc": "",
       "img": [
         {"slug": "living-fireplace",  "ori": "h", "tags": ["living"]},
         {"slug": "living-chairs",     "ori": "h", "tags": ["living"]},
@@ -17,6 +18,7 @@
     {
       "title": "Lakeshore Condo",
       "slug": "lakeshore",
+      "pc": "",
       "img": [
         {"slug": "living-window", "ori": "h", "tags": ["living"]},
         {"slug": "living-tv",     "ori": "h", "tags": ["living"]},
@@ -27,6 +29,7 @@
     {
       "title": "London",
       "slug": "london",
+      "pc": "with Catherine Alison Interiors",
       "img": [
         {"slug": "living-main",   "ori": "h", "tags": ["living"]},
         {"slug": "living-side",   "ori": "v", "tags": ["living"]},
@@ -40,6 +43,7 @@
     {
       "title": "Parkview",
       "slug": "parkview",
+      "pc": "",
       "img": [
         {"slug": "bathroom-main",     "ori": "v", "tags": ["bathroom"]},
         {"slug": "bathroom-sink",     "ori": "v", "tags": ["bathroom"]},
@@ -49,6 +53,7 @@
     {
       "title": "Wisteria",
       "slug": "wisteria",
+      "pc": "",
       "img": [
         {"slug": "bedroom-straight",  "ori": "h", "tags": ["bedroom"]},
         {"slug": "bedroom-angle",     "ori": "h", "tags": ["bedroom"]}
@@ -57,6 +62,7 @@
     {
       "title": "3D Design",
       "slug": "3d",
+      "pc": "",
       "img": [
         {"slug": "basement-games",       "ori": "w", "tags": ["living"]},
         {"slug": "basement-sit",         "ori": "w", "tags": ["living"]},

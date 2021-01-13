@@ -107,6 +107,10 @@ a:hover img {
   max-height: 85vh;
   object-fit: cover;
 }
+.banner-container {
+  display: flex;
+  position: relative;
+}
 .quote {
   padding: 3rem;
   font-family: 'sf', serif;
@@ -122,6 +126,20 @@ a:hover img {
   font-size: 1.5rem;
 }
 /* portfolio */
+.pc {
+  font-family: 'ss', sans-serif;
+  color: #AAAAAA;
+}
+.card-img-overlay .pc,
+.banner-container .pc {
+  padding: .4rem;
+  font-size: .6rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: #ffffff;
+  text-shadow: 0px 0px 5px black;
+}
 .portfolio * {
   border: none;
   border-radius: 0;
@@ -131,6 +149,7 @@ a:hover img {
 }
 .card-img-overlay {
   display: flex;
+  padding: 5px;
 }
 .card-title {
   margin: auto;

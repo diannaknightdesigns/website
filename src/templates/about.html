@@ -6,13 +6,12 @@
       <img src="/img/dianna-knight.jpg"/>
     </div>
     <div class="col-12 col-md-7 col-lg-8 col-xl-9">
-      <p>
-        Interior Design is Dianna's second career after a fulfilling profession as a high school mathematics teacher. Returning to school at Sheridan College in the Interior Decorating Program, she graduated with high honors in 2014 and worked for a number of other design firms for five years before embarking on her own. Dianna has always been passionate about design – the beauty, flow and how you feel comfortable in a space. A place you want to come home to. As a design professional, Dianna believes you can create a striking space that truly reflects your style and meets your needs.
-      </p><p>
-        As a member of DDA (Decorators & Designers Association of Canada), Dianna follows industry-best standards and is up to date on the latest developments by fulfilling yearly continuing education requirements.
-      </p><p>
-        Take the stress out of renovating or refreshing your home. Dianna Knight Designs will help create an inviting, and functional home interior that works for you. She helps you make the best decisions for quality and value while respecting your design esthetic and budget.
-      </p>
+      {% for section in about %}
+      <div class="section">
+        <h3>{{section.title}}</h3>
+        <p>{{section.text}}</p>
+      </div>
+      {% endfor %}
     </div>
     <!-- TODO: logos -->
   </div>

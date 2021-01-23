@@ -15,6 +15,7 @@ X = dict(
   default      = C['default'],
   navitems     = C['pages'],
   contacts     = C['contacts'],
+  about        = C['about'],
   services     = C['services'],
   portfolio    = C['portfolio'],
   testimonials = C['testimonials'],

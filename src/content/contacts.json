@@ -1,11 +1,7 @@
 [
   {
-    "icon": "icon/phone.svg",
-    "title": "647-518-8497",
-    "href": "tel:6475188497"
-  },{
     "icon": "icon/email.svg",
-    "title": "diannaknightdesigns<br>@gmail.com",
+    "title": "diannaknightdesigns@gmail.com",
     "href": "mailto:diannaknightdesigns@gmail.com"
   },{
     "icon": "icon/location.svg",
